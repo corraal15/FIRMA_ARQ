@@ -15,6 +15,9 @@
 
     --espacio: 40px; /* separacion entre bloques */
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /* estilos generales */
 * {
