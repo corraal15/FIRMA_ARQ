@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRMA_ARQ // PROJECT ON SEDE CENTRAL</title>
+    <link rel="stylesheet" href="../css/firma_arq.css">
+    <link rel="icon" type="image/svg+xml" href="../img/favicon.svg">
+</head>
+<body>
+
+    <!-- CABECERA -->
+    <header class="cabecera">
+        <h1 class="marca">
+            <a href="#">FIRMA_ARQ</a>
+        </h1>
+        
+        <nav class="menu" aria-label="Menú principal">
+            <a href="#">ESTUDIO</a>
+            <span class="menu-separador" aria-hidden="true">/</span>
+            <a href="#">SERVICIOS</a>
+            <span class="menu-separador" aria-hidden="true">/</span>
+            <a href="#" class="activo">PROYECTOS</a>
+            <span class="menu-separador" aria-hidden="true">/</span>
+            <a href="#">PRENSA</a>
+        </nav>
+        
+        <button class="boton-contacto">
+            CONTACTO
+        </button>
+    </header>
+
+    <main class="contenido">
+        
+        <!-- PROYECTO + METADATA -->
+        <article class="proyecto-intro">
+            <header class="proyecto-portada">
+                <span class="proyecto-codigo">PROYECTO // 004</span>
+                <h2 class="proyecto-titulo">
+                    PROJECT ON<br>
+                    <span class="proyecto-subtitulo">SEDE CENTRAL.</span>
+                </h2>
+            </header>
+
+            <aside class="ficha" aria-label="Ficha técnica del proyecto">
+                <h3 class="ficha-titulo">&lt;METADATA&gt;</h3>
+                <dl class="ficha-datos">
+                    <dt class="ficha-clave">UBICACIÓN</dt>
+                    <dd class="ficha-valor">BERLÍN, ALEMANIA</dd>
+
+                    <dt class="ficha-clave">AÑO</dt>
+                    <dd class="ficha-valor">2024</dd>
+
+                    <dt class="ficha-clave">SUPERFICIE</dt>
+                    <dd class="ficha-valor">45.000 M²</dd>
+
+                    <dt class="ficha-clave">MATERIALIDAD</dt>
+                    <dd class="ficha-valor">HORMIGÓN VISTO / ACERO CORTEN</dd>
+                </dl>
+            </aside>
+
+            <!-- STICKER 1: CONSTRUCTOR -->
+            <img src="../img/Constructor.png" alt="Sticker Constructor" class="sticker sticker--constructor">
+        </article>
+
+        <!-- FOTOGRAFÍA PANORÁMICA -->
+        <section class="panoramica-contenedor">
+            <figure class="panoramica">
+                <figcaption class="panoramica-etiqueta">
+                    ELEVACIÓN SUR
+                </figcaption>
+                <img src="../img/sede.PNG" alt="Vista exterior Sede Central">
+            </figure>
+        </section>
+
+        <!-- MANIFIESTO -->
+        <section class="manifiesto">
+            <header class="manifiesto-destacado">
+                <h3 class="manifiesto-lema">LA FUNCIÓN<br>DICTA LA<br>FORMA.</h3>
+                <!-- STICKER 2: EDIFICIO -->
+                <img src="../img/Edificio.png" alt="Sticker Edificio" class="sticker sticker--edificio">
+            </header>
+            
+            <blockquote class="manifiesto-cuerpo">
+                <p class="manifiesto-parrafo">
+                    UN MONOLITO DISEÑADO PARA RESISTIR EL TIEMPO. NO HAY DECORACIÓN, SÓLO ESTRUCTURA EXPUESTA. LAS COLUMNAS DE 
+                    <strong class="manifiesto-resaltado">HORMIGÓN ARMADO</strong> 
+                    SOPORTAN CARGAS DE 40 TONELADAS MIENTRAS DEFINEN LA CIRCULACIÓN DEL USUARIO.
+                </p>
+                <cite class="manifiesto-cita">
+                    "EL ESPACIO NO SE DECORA, SE ENCAPSULA MEDIANTE GEOMETRÍA PESADA Y LUZ NATURAL CALCULADA MILIMÉTRICAMENTE."
+                </cite>
+            </blockquote>
+        </section>
+
+        <!-- GALERÍA TÉCNICA -->
+        <section class="galeria">
+            <header class="galeria-cabecera">
+                <h3 class="galeria-titulo">&lt;ARCHIVO GRÁFICO&gt;</h3>
+                <span class="galeria-contador">03 ARCHIVOS</span>
+            </header>
+            
+            <section class="galeria-malla">
+                <figure class="galeria-figura">
+                    <picture class="aspecto-cuadrado">
+                        <img src="../img/fig1.PNG" alt="Interior Brutalista">
+                    </picture>
+                    <figcaption class="galeria-pie">FIG 1. // LUZ CENITAL</figcaption>
+                </figure>
+                <figure class="galeria-figura">
+                    <picture class="aspecto-cuadrado">
+                        <img src="../img/fig2.PNG" alt="Detalle Estructura">
+                    </picture>
+                    <figcaption class="galeria-pie">FIG 2. // MASA ESTRUCTURAL</figcaption>
+                </figure>
+
+                <!-- STICKER 3: SELLO DE CALIDAD -->
+                <img src="../img/SelloCalidad.png" alt="Sticker Sello de Calidad" class="sticker sticker--sello">
+            </section>
+            
+            <!-- Foto panorámica inferior -->
+            <figure class="galeria-figura">
+                <picture class="aspecto-panoramico">
+                    <img src="../img/fig3.PNG" alt="Perspectiva Urbana">
+                </picture>
+                <figcaption class="galeria-pie">FIG 3. // IMPLANTACIÓN URBANA</figcaption>
+            </figure>
+        </section>
+
+        <!-- NAVEGACIÓN INFERIOR -->
+        <nav class="navegacion-proyectos" aria-label="Navegación de proyectos">
+            <a href="#" class="enlace-proyecto enlace-anterior">
+                <span class="enlace-etiqueta">➔ PROYECTO 003</span>
+                <h4 class="enlace-nombre">TORRE<br>BRUT.</h4>
+            </a>
+
+            <a href="#" class="enlace-proyecto enlace-siguiente">
+                <span class="enlace-etiqueta">PROYECTO 005 ➔</span>
+                <h4 class="enlace-nombre">PABELLÓN<br>CERO.</h4>
+            </a>
+
+            <!-- STICKER 4: CAFÉ -->
+            <img src="../img/Cafe.png" alt="Sticker Café" class="sticker sticker--cafe">
+        </nav>
+
+    </main>
+
+</body>
+</html>
