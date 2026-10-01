@@ -2,7 +2,9 @@
    bordes gordos, sombras duras, rojo y fotos en blanco y negro */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&family=JetBrains+Mono:wght@800&display=swap');
-
+html {
+    scroll-behavior: smooth;
+}
 /* variables (colores y medidas que se repiten) */
 :root {
     --black: #000000;
